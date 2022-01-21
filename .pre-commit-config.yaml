@@ -1,20 +1,18 @@
 repos:
-- repo: https://github.com/PyCQA/isort
-  rev: 5.10.1
-  hooks:
-    - id: isort
-
-- repo: https://github.com/psf/black
-  rev: 21.12b0
-  hooks:
-    - id: black
-      language_version: python3
-
-- repo: https://github.com/PyCQA/flake8
-  rev: 4.0.1
-  hooks:
-    - id: flake8
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+  - repo: https://github.com/psf/black
+    rev: 21.12b0
+    hooks:
+      - id: black
+        language_version: python3
+  - repo: https://github.com/PyCQA/flake8
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
     hooks:
     -   id: check-yaml
