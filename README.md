@@ -1,6 +1,6 @@
-# wordlebee
-
 <div align="center">
+
+# wordle*bee* 🐝
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](#license)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](#black)
