@@ -1,7 +1,6 @@
-# wordle-cli
+# wordlebee
 
-A simple python script to help solve wordle puzzle.
-
+A cli wordle word guessing helper bee to solve the wordle puzzle of the day.
 
 ## Installation
 
@@ -9,10 +8,10 @@ Install conda enviroment:
 
     conda env create -f environment.yml
 
-Install `wordle-cli`:
+Install `wordlebee`:
 
-    python -m build wordle-cli
+    pip install .
 
 ## Usage
 
-    wordle-cli
+    python -m wordlebee
