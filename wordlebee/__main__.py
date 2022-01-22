@@ -5,8 +5,20 @@ from rich import print
 from rich.prompt import Confirm, Prompt
 
 
-def filter_word(filter_func, words) -> np.ndarray:
+def filter_array(filter_func, words) -> np.ndarray:
     return np.array(list(filter(filter_func, words)))
+
+
+def filter_words(words, letters, pos) -> np.ndarray:
+    for char in letters:
+        if pos == 0:  # not inside
+            words = filter_array(lambda x: x.find(char) == -1, words)
+        elif pos >= 1 and pos <= 5:  # known position
+            words = filter_array(lambda x: x.find(char) == pos - 1, words)
+        elif pos < 0:  # known not position
+            words = filter_array(lambda x: x.find(char) != -1, words)
+            words = filter_array(lambda x: x.find(char) != -pos - 1, words)
+    return words
 
 
 def get_words() -> np.ndarray:
@@ -45,28 +57,22 @@ def cli() -> None:
             letters, pos_str = raw_input.split(" ")
             pos = int(pos_str)
             # Filter words
-            for char in letters:
-                if pos == 0:  # not inside
-                    words = filter_word(lambda x: x.find(char) == -1, words)
-                elif pos >= 1 and pos <= 5:  # known position
-                    words = filter_word(lambda x: x.find(char) == pos - 1, words)
-                elif pos < 0:  # known not position
-                    words = filter_word(lambda x: x.find(char) != -1, words)
-                    words = filter_word(lambda x: x.find(char) != -pos - 1, words)
-                else:
-                    break
+            words = filter_words(words, letters, pos)
 
         # Print status
         if len(words) == 1:
             print(f"Solution: [bold][green]{words[0]}[/green][/bold] :partying_face:")
             break
+
         elif len(words) == 0:
             print("Failed!", ":sob:")
+
             restart = Confirm.ask("Restart guess?")
             if restart:
                 words = get_words()
             else:
                 break
+
         else:
             print("Possible words:", words)
 
