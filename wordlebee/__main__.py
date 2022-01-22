@@ -15,29 +15,50 @@ def get_words() -> np.ndarray:
     return np.loadtxt(filepath, dtype="str")
 
 
+def print_help() -> None:
+    print(
+        "Help (?) [bold blue]position[/bold blue]: "
+        + "([bold green]green[/bold green]): 1 to 5, "
+        + "(black): 0, "
+        + "([bold yellow]yellow[/bold yellow]): -1 to -5"
+    )
+
+
 def cli() -> None:
 
+    # Init by parsing wordlist
     words = get_words()
+
+    # Helper
+    print_help()
 
     while True:
         # Get user input to filter words
         raw_input = Prompt.ask(
-            "Enter [bold][[red]<Letter>[/red] [green]<position>[/green]][/bold] (position: 1-5, not: -1, unknown: 0)"
-        ).split(" ")
-        # Clean input
-        char = raw_input[0].lower()
-        pos = int(raw_input[1])
-        if pos == -1:
-            words = filter_word(lambda x: x.find(char) == -1, words)
-        elif pos == 0:
-            words = filter_word(lambda x: x.find(char) != -1, words)
-        elif pos >= 1 and pos <= 5:
-            words = filter_word(lambda x: x.find(char) == pos - 1, words)
+            "Enter [bold][[red]<letter(s)>[/red] [blue]<position>[/blue]][/bold]"
+        )
+        if raw_input[0] == "?":
+            print_help()
+            continue
         else:
-            break
+            # Parse input
+            letters, pos_str = raw_input.split(" ")
+            pos = int(pos_str)
+            # Filter words
+            for char in letters:
+                if pos == 0:  # not inside
+                    words = filter_word(lambda x: x.find(char) == -1, words)
+                elif pos >= 1 and pos <= 5:  # known position
+                    words = filter_word(lambda x: x.find(char) == pos - 1, words)
+                elif pos < 0:  # known not position
+                    words = filter_word(lambda x: x.find(char) != -1, words)
+                    words = filter_word(lambda x: x.find(char) != -pos - 1, words)
+                else:
+                    break
+
+        # Print status
         if len(words) == 1:
             print(f"Solution: [bold][green]{words[0]}[/green][/bold] :partying_face:")
-
             break
         elif len(words) == 0:
             print("Failed!", ":sob:")
