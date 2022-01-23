@@ -1,4 +1,5 @@
 import os
+from contextlib import suppress
 
 import numpy as np
 from rich import print
@@ -29,11 +30,21 @@ def get_words() -> np.ndarray:
 
 def print_help() -> None:
     print(
-        "Help (?) [bold blue]position[/bold blue]: "
-        + "([bold green]green[/bold green]): 1 to 5, "
-        + "(black): 0, "
-        + "([bold yellow]yellow[/bold yellow]): -1 to -5"
+        "Help (?) [bold blue]position[/]: "
+        + "([bold green]green[/]): 1 to 5, "
+        + "([bold]black[/]): 0, "
+        + "([bold yellow]yellow[/]): -1 to -5"
     )
+
+
+def format_guess(guess) -> str:
+    formated_guess = ""
+    for char in guess:
+        if char == "x":
+            formated_guess += char
+        else:
+            formated_guess += "[bold white on green]" + char + "[/]"
+    return formated_guess
 
 
 def cli() -> None:
@@ -44,37 +55,44 @@ def cli() -> None:
     # Helper
     print_help()
 
-    while True:
-        # Get user input to filter words
-        raw_input = Prompt.ask(
-            "Enter [bold][[red]<letter(s)>[/red] [blue]<position>[/blue]][/bold]"
-        )
-        if raw_input[0] == "?":
-            print_help()
-            continue
-        else:
-            # Parse input
-            letters, pos_str = raw_input.split(" ")
-            pos = int(pos_str)
-            # Filter words
-            words = filter_words(words, letters, pos)
+    guess = "xxxxx"
 
-        # Print status
-        if len(words) == 1:
-            print(f"Solution: [bold][green]{words[0]}[/green][/bold] :partying_face:")
-            break
-
-        elif len(words) == 0:
-            print("Failed!", ":sob:")
-
-            restart = Confirm.ask("Restart guess?")
-            if restart:
-                words = get_words()
+    with suppress(KeyboardInterrupt):
+        while True:
+            # Get user input to filter words
+            raw_input = Prompt.ask(
+                f"Guess word ({format_guess(guess)}) [bold][[red]<letter(s)>[/red] [blue]<position>[/blue]][/]"
+            )
+            if raw_input[0] == "?":
+                print_help()
+                continue
             else:
+                # Parse input
+                letters, pos_str = raw_input.split(" ")
+                pos = int(pos_str)
+                # Filter words
+                words = filter_words(words, letters, pos)
+                if pos > 0:
+                    guess = guess[: pos - 1] + letters[0] + guess[pos:]
+
+            # Print status
+            if len(words) == 1:
+                guess = words[0]
+                print(f"Solution: [bold green]{guess}[/] :partying_face:")
                 break
 
-        else:
-            print("Possible words:", words)
+            elif len(words) == 0:
+                print("Failed!", ":sob:")
+
+                restart = Confirm.ask("Restart guess?")
+                if restart:
+                    words = get_words()
+                    guess = "xxxxx"
+                else:
+                    break
+
+            else:
+                print("Possible words:", words)
 
 
 if __name__ == "__main__":
