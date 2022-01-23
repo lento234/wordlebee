@@ -8,7 +8,7 @@
 
 A cli wordle word guessing helper bee to solve the wordle puzzle of the day.
 
-<a href="https://asciinema.org/a/C9ZPT2YA4XX1OOfOxzQhQOuih?t=4" target="_blank"><img src="https://asciinema.org/a/C9ZPT2YA4XX1OOfOxzQhQOuih.svg"/></a>
+[![asciicast](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs.svg)](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs?t=8)
 
 ## Usage
 
