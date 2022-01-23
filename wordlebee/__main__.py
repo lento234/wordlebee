@@ -1,8 +1,10 @@
 import os
+from collections import Counter, defaultdict
 from contextlib import suppress
 
 import numpy as np
 from rich import print
+from rich.panel import Panel
 from rich.prompt import Confirm, Prompt
 
 
@@ -30,21 +32,44 @@ def get_words() -> np.ndarray:
 
 def print_help() -> None:
     print(
-        "Help (?) [bold blue]position[/]: "
-        + "([bold green]green[/]): 1 to 5, "
-        + "([bold]black[/]): 0, "
-        + "([bold yellow]yellow[/]): -1 to -5"
+        Panel(
+            "Help (?) [bold blue]position[/]: "
+            + "([bold green]green[/]): 1 to 5, "
+            + "([bold]black[/]): 0, "
+            + "([bold yellow]yellow[/]): -1 to -5"
+        )
     )
 
 
 def format_guess(guess) -> str:
     formated_guess = ""
     for char in guess:
-        if char == "-":
-            formated_guess += char
+        if char.isalpha():
+            formated_guess += f"[bold white on green]{char.upper()}[/]"
         else:
-            formated_guess += "[bold white on green]" + char + "[/]"
-    return formated_guess
+            formated_guess += f"{char}"
+
+    return f"{formated_guess}"
+
+
+def find_most_frequent_letters(words, n=4) -> list:
+    # Count letters
+    letters: dict = defaultdict(int)
+    for word in words:
+        for k, v in Counter(word).items():  # type: str, int
+            letters[k] += v
+    sorted_keys = sorted(letters.items(), key=lambda kv: kv[1], reverse=True)
+
+    return [kv[0] for kv in sorted_keys[:n]]
+
+
+def find_most_representative_words(words, n=4) -> list:
+    most_freq_letters = find_most_frequent_letters(words, n)
+    sub_list = []
+    for word in words:
+        if all(char in word for char in most_freq_letters):
+            sub_list.append(word)
+    return sub_list[:n]
 
 
 def cli() -> None:
@@ -55,13 +80,17 @@ def cli() -> None:
     # Helper
     print_help()
 
-    guess = "-----"
+    guess = "12345"
 
     with suppress(KeyboardInterrupt):
         while True:
+            # Print best guess words
+            print(f"Best guess: ({find_most_representative_words(words)})")
+
             # Get user input to filter words
             raw_input = Prompt.ask(
-                f"Guess word ({format_guess(guess)}) [bold][[red]<letter(s)>[/red] [blue]<position>[/blue]][/]"
+                f"Guess word ({format_guess(guess)}) "
+                + "[bold][[red]<letter(s)>[/red] [blue]<position>[/blue]][/]"
             )
             if raw_input[0] == "?":
                 print_help()
@@ -78,7 +107,7 @@ def cli() -> None:
             # Print status
             if len(words) == 1:
                 guess = words[0]
-                print(f"Solution: [bold green]{guess}[/] :partying_face:")
+                print(Panel(f"Solution: [bold green]{guess}[/] :partying_face:"))
                 break
 
             elif len(words) == 0:
@@ -87,7 +116,7 @@ def cli() -> None:
                 restart = Confirm.ask("Restart guess?")
                 if restart:
                     words = get_words()
-                    guess = "-----"
+                    guess = "12345"
                 else:
                     break
 
