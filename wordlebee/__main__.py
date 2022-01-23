@@ -40,7 +40,7 @@ def print_help() -> None:
 def format_guess(guess) -> str:
     formated_guess = ""
     for char in guess:
-        if char == "x":
+        if char == "-":
             formated_guess += char
         else:
             formated_guess += "[bold white on green]" + char + "[/]"
@@ -55,7 +55,7 @@ def cli() -> None:
     # Helper
     print_help()
 
-    guess = "xxxxx"
+    guess = "-----"
 
     with suppress(KeyboardInterrupt):
         while True:
@@ -87,7 +87,7 @@ def cli() -> None:
                 restart = Confirm.ask("Restart guess?")
                 if restart:
                     words = get_words()
-                    guess = "xxxxx"
+                    guess = "-----"
                 else:
                     break
 
