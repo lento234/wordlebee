@@ -5,6 +5,7 @@ description = "wordle word guessing helper bee"
 authors = ["Mrlento234 <lento.manickathan@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+keywords = ["wordle", "cli"]
 
 [tool.poetry.dependencies]
 python = "~3.9"
