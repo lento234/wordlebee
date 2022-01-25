@@ -5,7 +5,7 @@ from wordlebee.__main__ import filter_array
 
 
 def test_version():
-    assert __version__ == "0.3.0"
+    assert __version__ == "0.4.0"
 
 
 def test_filter_array():
