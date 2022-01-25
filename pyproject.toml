@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordlebee"
-version = "v0.4.0"
+version = "v0.5.0"
 description = "wordle word guessing helper bee"
 authors = ["Mrlento234 <lento.manickathan@gmail.com>"]
 license = "MIT"
