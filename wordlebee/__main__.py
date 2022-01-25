@@ -17,10 +17,10 @@ def filter_words(words, letters, pos) -> np.ndarray:
         if pos == 0:  # not inside
             words = filter_array(lambda x: x.find(char) == -1, words)
         elif pos >= 1 and pos <= 5:  # known position
-            words = filter_array(lambda x: x.find(char) == pos - 1, words)
+            words = filter_array(lambda x: x[pos - 1] == char, words)
         elif pos < 0:  # known not position
             words = filter_array(lambda x: x.find(char) != -1, words)
-            words = filter_array(lambda x: x.find(char) != -pos - 1, words)
+            words = filter_array(lambda x: x[-pos - 1] != char, words)
     return words
 
 
