@@ -1,41 +1,376 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="149.91mm" height="29.64mm" version="1.1" viewBox="0 0 149.91 29.64" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <marker id="marker365166" overflow="visible" orient="auto">
-   <path transform="matrix(.2 0 0 .2 1.48 .2)" d="m-2.5-1c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
-  </marker>
-  <marker id="DotS" overflow="visible" orient="auto">
-   <path transform="matrix(.2 0 0 .2 1.48 .2)" d="m-2.5-1c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
-  </marker>
- </defs>
- <g transform="translate(-24.476 -105.75)">
-  <text x="134.59494" y="134.14098" fill="#000000" font-family="sans-serif" font-size="21.167px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="134.59494" y="134.14098" fill="#000000" font-family="'Fira Code'" font-size="21.167px" font-weight="bold" stroke-width=".31005"><tspan dx="0" fill="#000000" font-family="'Fira Code'" font-size="21.167px" font-style="italic" font-weight="bold" letter-spacing="-.006201px" stroke-width=".31005" word-spacing="0px">bee</tspan></tspan></text>
-  <g transform="translate(9.289 -38.44)">
-   <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
-   <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">W</tspan></text>
-   <g transform="translate(18.011)">
-    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
-    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">O</tspan></text>
-   </g>
-   <g transform="translate(36.023)">
-    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
-    <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">R</tspan></text>
-   </g>
-   <g transform="translate(54.034)">
-    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
-    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">D</tspan></text>
-   </g>
-   <g transform="translate(72.045)">
-    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
-    <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">L</tspan></text>
-   </g>
-   <g transform="translate(90.057)">
-    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
-    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">E</tspan></text>
-   </g>
+
+<svg
+   width="149.90611mm"
+   height="29.640333mm"
+   viewBox="0 0 149.90611 29.640333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="wordlebee-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="0.26582969"
+     inkscape:cx="-383.70432"
+     inkscape:cy="240.75565"
+     inkscape:window-width="1551"
+     inkscape:window-height="1053"
+     inkscape:window-x="2273"
+     inkscape:window-y="205"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker365166"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotS"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path365164" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotS"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotS"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path363377" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker364496"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path364494" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker363638"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.92,0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path363636" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotM"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path363374" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker363620"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.92,0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path363618" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.92,0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path363371" />
+    </marker>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect241658"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,6.6145833,0,1 @ F,0,0,1,0,6.6145833,0,1 @ F,0,0,1,0,6.6145833,0,1 @ F,0,0,1,0,6.6145833,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect213823"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,17.4625,0,1 @ F,0,0,1,0,17.4625,0,1 @ F,0,0,1,0,17.4625,0,1 @ F,0,0,1,0,17.4625,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="66"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <marker
+       style="overflow:visible"
+       id="marker364496-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path364494-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.476239,-105.74636)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.1667px;line-height:0;font-family:sans-serif;letter-spacing:0.012402px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310051"
+       x="134.59494"
+       y="134.14098"
+       id="text2607"
+       inkscape:export-filename="/home/lento/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2605"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#000000;stroke-width:0.310051"
+         x="134.59494"
+         y="134.14098"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1667px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:-0.00620102px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:0.310051"
+           id="tspan31427"
+           dx="0">bee</tspan></tspan></text>
+    <g
+       id="g331219"
+       transform="translate(9.2890065,-38.439865)"
+       inkscape:export-filename="/home/lento/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g292925">
+        <path
+           style="fill:#f3c41b;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">W</tspan></text>
+      </g>
+      <g
+         id="g292925-4"
+         transform="translate(18.01136)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0-5"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#f3c41b;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7-8"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0-2"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#f3c41b;fill-opacity:1;stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">O</tspan></text>
+      </g>
+      <g
+         id="g292925-7"
+         transform="translate(36.02272)">
+        <path
+           style="fill:#f3c41b;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0-9"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7-3"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0-3"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">R</tspan></text>
+      </g>
+      <g
+         id="g292925-7-7"
+         transform="translate(54.03408)"
+         style="fill:#000000;fill-opacity:1">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0-9-8"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#f3c41b;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7-3-5"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0-3-5"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#f3c41b;fill-opacity:1;stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">D</tspan></text>
+      </g>
+      <g
+         id="g292925-7-7-5"
+         transform="translate(72.04544)">
+        <path
+           style="fill:#f3c41b;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0-9-8-1"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7-3-5-9"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0-3-5-2"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">L</tspan></text>
+      </g>
+      <g
+         id="g292925-7-7-5-0"
+         transform="translate(90.0568)"
+         style="fill:#000000;fill-opacity:1">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           id="rect213719-0-9-8-1-8"
+           width="16.953028"
+           height="16.798574"
+           x="15.187233"
+           y="157.02798"
+           sodipodi:type="rect"
+           d="m 15.187233,157.02798 h 16.953028 v 16.79858 H 15.187233 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0.012402px;fill:#f3c41b;fill-opacity:1;stroke:none;stroke-width:0.310051"
+           x="18.236393"
+           y="171.69586"
+           id="text2607-7-3-5-9-1"><tspan
+             sodipodi:role="line"
+             id="tspan2605-0-3-5-2-6"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#f3c41b;fill-opacity:1;stroke-width:0.310051"
+             x="18.236393"
+             y="171.69586">E</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotS)"
+       d="m 155.51435,120.3958 c 5.26904,-14.72345 -4.7446,-16.2673 -6.27739,-9.7892 v 0"
+       id="path363053"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/lento/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker365166)"
+       d="m 158.73682,120.71055 c 3.2985,-15.51183 10.33727,-16.30442 13.63819,-11.3866 v 0"
+       id="path363053-7"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/lento/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
-  <path d="m155.51 120.4c5.269-14.723-4.7446-16.267-6.2774-9.7892" fill="none" marker-end="url(#DotS)" stroke="#000" stroke-width="1.803"/>
-  <path d="m158.74 120.71c3.2985-15.512 10.337-16.304 13.638-11.387" fill="none" marker-end="url(#marker365166)" stroke="#000" stroke-width="1.803"/>
- </g>
 </svg>
