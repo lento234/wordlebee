@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="149.91mm" height="29.64mm" version="1.1" viewBox="0 0 149.91 29.64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="marker365166" overflow="visible" orient="auto">
+   <path transform="matrix(.2 0 0 .2 1.48 .2)" d="m-2.5-1c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="DotS" overflow="visible" orient="auto">
+   <path transform="matrix(.2 0 0 .2 1.48 .2)" d="m-2.5-1c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-24.476 -105.75)">
+  <text x="134.59494" y="134.14098" fill="#000000" font-family="sans-serif" font-size="21.167px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="134.59494" y="134.14098" fill="#000000" font-family="'Fira Code'" font-size="21.167px" font-weight="bold" stroke-width=".31005"><tspan dx="0" fill="#000000" font-family="'Fira Code'" font-size="21.167px" font-style="italic" font-weight="bold" letter-spacing="-.006201px" stroke-width=".31005" word-spacing="0px">bee</tspan></tspan></text>
+  <g transform="translate(9.289 -38.44)">
+   <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
+   <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">W</tspan></text>
+   <g transform="translate(18.011)">
+    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
+    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">O</tspan></text>
+   </g>
+   <g transform="translate(36.023)">
+    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
+    <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">R</tspan></text>
+   </g>
+   <g transform="translate(54.034)">
+    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
+    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">D</tspan></text>
+   </g>
+   <g transform="translate(72.045)">
+    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" fill="#f3c41b" stroke-width=".26458"/>
+    <text x="18.236393" y="171.69586" fill="#000000" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">L</tspan></text>
+   </g>
+   <g transform="translate(90.057)">
+    <path x="15.187233" y="157.02798" width="16.953028" height="16.798574" d="m15.187 157.03h16.953v16.799h-16.953z" stroke-width=".26458"/>
+    <text x="18.236393" y="171.69586" fill="#f3c41b" font-family="sans-serif" font-size="17.639px" letter-spacing=".012402px" stroke-width=".31005" style="line-height:0" xml:space="preserve"><tspan x="18.236393" y="171.69586" fill="#f3c41b" font-family="'Fira Code'" font-size="17.639px" font-weight="bold" stroke-width=".31005">E</tspan></text>
+   </g>
+  </g>
+  <path d="m155.51 120.4c5.269-14.723-4.7446-16.267-6.2774-9.7892" fill="none" marker-end="url(#DotS)" stroke="#000" stroke-width="1.803"/>
+  <path d="m158.74 120.71c3.2985-15.512 10.337-16.304 13.638-11.387" fill="none" marker-end="url(#marker365166)" stroke="#000" stroke-width="1.803"/>
+ </g>
+</svg>
