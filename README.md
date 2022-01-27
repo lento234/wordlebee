@@ -1,9 +1,8 @@
 <div align="center">
 
 <p>
-    <img width="400" align="center" src="assets/wordlebee-logo.svg">
+    <img width="500" align="center" src="assets/wordlebee-logo.svg">
 </p>
-</br>
 <p>
 
 [![PyPi Version](https://img.shields.io/pypi/v/wordlebee.svg?style=flat-square)](https://pypi.org/project/wordlebee/)
