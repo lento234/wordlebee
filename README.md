@@ -1,18 +1,17 @@
 <div align="center">
 
-<p>
+<h1>
     <img width="500" align="center" src="assets/wordlebee-logo.svg">
-</p>
-<p>
+</h1>
 
 [![PyPi Version](https://img.shields.io/pypi/v/wordlebee.svg?style=flat-square)](https://pypi.org/project/wordlebee/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](#license)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](#black)
 
-</p>
+***A cli wordle word guessing helper bee to solve the wordle puzzle of the day.***
+
 </div>
 
-A cli wordle word guessing helper bee to solve the wordle puzzle of the day.
 
 [![asciicast](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs.svg)](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs?t=8)
 
