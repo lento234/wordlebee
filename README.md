@@ -12,9 +12,6 @@
 
 </div>
 
-
-[![asciicast](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs.svg)](https://asciinema.org/a/NSZZUpGhajLcDh9xuMGYIDjTs?t=8)
-
 ## Usage
 
     python -m wordlebee
