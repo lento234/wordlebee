@@ -18,16 +18,20 @@
 
 ## Installation
 
-Install `wordlebee`:
+* Install `wordlebee` in isolated environment:
+
+    pipx install wordlebee
+
+* Install `wordlebee`:
 
     pip install wordlebee
 
 ## Development
 
-Install conda enviroment:
+* Install conda enviroment:
 
     conda env create -f environment.yml
 
-Install using `poetry`:
+* Install using `poetry`:
 
     poetry install
