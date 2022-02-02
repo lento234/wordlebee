@@ -14,24 +14,34 @@
 
 ## Usage
 
-    python -m wordlebee
+```
+python -m wordlebee
+```
 
 ## Installation
 
-* Install `wordlebee` in isolated environment:
+Install `wordlebee` in isolated environment:
 
-    pipx install wordlebee
+```
+pipx install wordlebee
+```
 
-* Install `wordlebee`:
+Install `wordlebee`:
 
-    pip install wordlebee
+```
+pip install wordlebee
+```
 
 ## Development
 
-* Install conda enviroment:
+Install conda enviroment:
 
-    conda env create -f environment.yml
+```
+conda env create -f environment.yml
+```
 
-* Install using `poetry`:
+Install using `poetry`:
 
-    poetry install
+```
+poetry install
+```
