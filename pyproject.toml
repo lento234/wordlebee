@@ -22,3 +22,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 wordlebee = 'wordlebee.__main__:cli'
+
+[tool.poetry.plugins."pix.run"]
+wordlebee = 'wordlebee.__main__:cli'
