@@ -4,10 +4,6 @@ from wordlebee import __version__
 from wordlebee.__main__ import filter_array
 
 
-def test_version():
-    assert __version__ == "0.6.2"
-
-
 def test_filter_array():
     init_list = np.array(["apple", "orange", "banana", "kiwi"])
     filtered_list = filter_array(lambda x: x.find("b") == -1, init_list)

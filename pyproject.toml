@@ -1,14 +1,20 @@
 [tool.poetry]
 name = "wordlebee"
-version = "0.6.2"
+version = "0.6.3"
 description = "wordle word guessing helper bee"
 authors = ["Mrlento234 <lento.manickathan@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["wordle", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
 
 [tool.poetry.dependencies]
-python = "~3.9"
+python = "^3.8"
 rich = "^11.0.0"
 numpy = "^1.22.1"
 
