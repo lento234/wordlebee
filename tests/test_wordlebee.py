@@ -1,6 +1,5 @@
 import numpy as np
 
-from wordlebee import __version__
 from wordlebee.__main__ import filter_array
 
 
