@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordlebee"
-version = "0.7.1"
+version = "0.7.2"
 description = "wordle word guessing helper bee"
 authors = ["Mrlento234 <lento.manickathan@gmail.com>"]
 license = "MIT"
@@ -15,12 +15,12 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-rich = "^11.0.0"
-numpy = "^1.22.1"
+python = "^3.9"
+rich = "^11.2.0"
+numpy = "^1.22.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

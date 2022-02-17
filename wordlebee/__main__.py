@@ -26,8 +26,8 @@ def filter_words(words, letters, pos) -> np.ndarray:
 
 def get_words() -> np.ndarray:
     # Get data
-    # filepath = os.path.join(os.path.dirname(__file__), "data/popular_filtered.txt")
-    filepath = os.path.join(os.path.dirname(__file__), "data/words_filtered.txt")
+    filepath = os.path.join(os.path.dirname(__file__), "data/popular_filtered.txt")
+    # filepath = os.path.join(os.path.dirname(__file__), "data/words_filtered.txt")
     return np.loadtxt(filepath, dtype="str")
 
 
