@@ -1,11 +1,15 @@
+import argparse
 import os
 from collections import Counter, defaultdict
 from contextlib import suppress
+from sys import version_info
 
 import numpy as np
 from rich import print
 from rich.panel import Panel
 from rich.prompt import Confirm, Prompt
+
+from .__about__ import __version__
 
 
 def filter_array(filter_func, words) -> np.ndarray:
@@ -73,8 +77,7 @@ def find_most_representative_words(words, n=4) -> list:
     return sub_list[:n]
 
 
-def cli() -> None:
-
+def solve_puzzle(args) -> None:
     # Init by parsing wordlist
     words = get_words()
 
@@ -123,6 +126,36 @@ def cli() -> None:
 
             else:
                 print("Possible words:", words)
+
+
+def cli(argv=None) -> None:
+    parser = argparse.ArgumentParser(
+        description=_get_description(),
+        formatter_class=argparse.RawTextHelpFormatter,
+    )
+
+    parser.add_argument(
+        "--version",
+        "-v",
+        action="version",
+        version=_get_version(),
+        help="display version information",
+    )
+
+    args = parser.parse_args(argv)
+
+    solve_puzzle(args)
+
+
+def _get_description():
+    return "wordlebee 🐝: A cli wordle word guessing helper bee to solve the wordle puzzle of the day."
+
+
+def _get_version():
+    return (
+        f"🐝 wordlebee {__version__} with Python {version_info.major}.{version_info.minor}.{version_info.micro}\n"
+        + "Copyright (c) 2022 Lento Manickathan"
+    )
 
 
 if __name__ == "__main__":
